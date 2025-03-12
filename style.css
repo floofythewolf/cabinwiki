@@ -1,0 +1,265 @@
+body {
+  background:linear-gradient(rgb(20, 20, 20), rgb(0, 0, 0)) fixed no-repeat;
+}
+#contentcharacters {
+  background: rgb(14, 14, 14);
+  font-family: monospace;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  transition: 0.1s ease-in-out;
+}
+#contentcharacters:hover,
+#contentcharacters:focus-visible {
+  transform:scale(1.05);
+  background-color: rgb(87, 87, 87);
+}
+.mainbody {
+  background:linear-gradient(rgb(27, 27, 27), rgb(14, 14, 14)) fixed no-repeat;
+  font-family: monospace;
+  padding: 10px;
+  width: 50vmax;
+  border-radius: 10px;
+  margin-inline: auto;
+}
+.content {
+  background: rgb(29, 29, 29);
+  font-family: monospace;
+  padding: 15px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+}
+.contentcolumn {
+  background: rgb(26, 26, 26);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: fit-content;
+}
+.descriptioncontent {
+  background: rgb(24, 24, 24);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.logo {
+  font-weight: normal;
+  color: rgb(196, 196, 196);
+  font-size: 30px;
+  transition: 0.1s ease-in-out;
+  padding: 13px;
+  height: 1em;
+  background-color: rgb(59, 59, 59);
+  border-radius: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+.logo:hover,
+.logo:focus-visible {
+  color: rgb(219, 219, 219);
+  background-color: rgb(65, 65, 65);
+}
+.navbar {
+  background: rgb(54, 54, 54);
+  font-family: monospace;
+  border-radius: 10px;
+  display: grid;
+  margin-inline: auto;
+}
+.navdiv {
+  display: grid;
+}
+.navbutton1 {
+  list-style: none;
+  display: inline-block;
+  background-color: rgb(78, 78, 78);
+  border-radius: 12px;
+  margin: 1em;
+  padding: 1em;
+  transition: 0.1s ease-in-out;
+}
+a .navbutton1 {
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1em;
+}
+.navbutton1:hover,
+.navbutton1:focus-visible {
+  transform:scale(1.05);
+  background-color: rgb(59, 59, 59);
+}
+.navbutton2 {
+  background-color: rgb(172, 172, 172);
+  margin: 0.4em;
+  border-radius: 10px;
+  padding: 1em;
+  border-color: rgb(172, 172, 172);
+  display: inline-block;
+  transition: 0.1s ease-in-out;
+}
+a .navbutton2 {
+  color: white;
+  font-weight: bold;
+}
+.navbutton2:hover,
+.navbutton2:focus-visible {
+  transform:scale(1.05);
+  background-color: rgb(122, 122, 122);
+}
+.wikimainbody {
+  background:linear-gradient(rgb(43, 43, 43), rgb(14, 14, 14)) fixed no-repeat;
+  font-family: monospace;
+  padding: 2px;
+  border-radius: 10px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  max-width: min-content;
+}
+.wikicontentright {
+  background: rgb(19, 19, 19);
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 20px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 10px;
+  width: 20vmax;
+}
+.wikicontentleft {
+  background: rgb(26, 26, 26);
+  color: white;
+  font-family: monospace;
+  padding: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0px;
+  width: auto;
+}
+.wikicontentleftimage {
+  background: rgb(17, 17, 17);
+  font-family: monospace;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 22vmax;
+  height: 22vmax;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.contentleftimage {
+  border-radius: 10px; 
+  width: 22vmax; 
+  height: 22vmax;
+}
+.wikicontentleftcontent {
+  background: rgb(20, 20, 20);
+  font-family: monospace;
+  padding: 10px;
+  border-radius: 10px;
+  width: 25vmax;
+  margin-inline: auto;
+}
+.wikicontentleftcontentdescription {
+  background: rgb(17, 17, 17);
+  font-family: monospace;
+  padding: 2vmax;
+  border-radius: 10px;
+  margin-inline: auto;
+}
+.signinmainbody {
+  background: rgb(20, 20, 20);
+  font-family: monospace;
+  padding-inline: 50px;
+  padding: 3em;
+  max-width: fit-content;
+  border-radius: 10px;
+  margin-inline: auto;
+  display: grid;
+}
+.signinlogo {
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  gap: 5px;
+  font-weight: normal;
+  color: rgb(196, 196, 196);
+  padding: 10px;
+  height: 40px;
+  margin: 10px;
+  background-color: rgb(31, 31, 31);
+  border-radius: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.signinform {
+  background: linear-gradient(rgb(43, 43, 43), rgb(31, 31, 31)) fixed no-repeat;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signinformbuttons {
+  background: rgb(31, 31, 31);
+  margin: 15px;
+  padding: 5px;
+  max-width: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+.signinformbuttonsinput {
+  border-radius: 10px;
+  background: rgb(56, 56, 56);
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.1s ease-in-out;
+}
+.signinformbuttonsinput p {
+  color: rgb(170, 170, 170);
+  font-size: 13px;
+  font-weight: bold;
+  margin: 15px
+}
+.signinformbuttonsinput:hover,
+.signinformbuttonsinput:focus-visible {
+  transform:scale(1.05);
+  background-color: rgb(87, 87, 87);
+}
+#signininput {
+  border-radius: 10px;
+  width: 35vmax;
+  height: 25px;
+}
+.signinformsidebuttons {
+  color: rgb(134, 134, 134); 
+  margin: 10px; 
+  font-weight: bolder;
+}
